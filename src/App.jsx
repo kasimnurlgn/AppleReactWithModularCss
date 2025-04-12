@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer";
 import Alert from "./components/Alert/Alert";
 import FirstSection from "./components/FirstSection/FirstSection";
 import SecondSection from "./components/SecondSection/SecondSection";
+import ThirdSection from "./components/ThirdSection/ThirdSection";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Header />
       <Alert />
       <FirstSection />
-      <SecondSection/>
+      <SecondSection />
+      <ThirdSection/>
       <Footer />
     </>
   );
