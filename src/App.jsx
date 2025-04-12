@@ -5,13 +5,15 @@ import "./App.css";
 import Footer from "./components/Footer/Footer";
 import Alert from "./components/Alert/Alert";
 import FirstSection from "./components/FirstSection/FirstSection";
+import SecondSection from "./components/SecondSection/SecondSection";
 
 function App() {
   return (
     <>
       <Header />
       <Alert />
-      <FirstSection/>
+      <FirstSection />
+      <SecondSection/>
       <Footer />
     </>
   );
