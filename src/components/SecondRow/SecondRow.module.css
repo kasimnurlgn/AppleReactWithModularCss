@@ -1,0 +1,26 @@
+.rightAndLeft {
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* second-row */
+.secondRow .secondRowLleft {
+  background-image: url("../../assets/images/home/apple-tv-background.jpg");
+}
+.secondRow .secondRowRight {
+  background-image: url("../../assets/images/home/air-pods.jpg");
+  color: #fff;
+  background-size: initial;
+  background-color: #000;
+  background-position: bottom;
+}
+.secondRowRright .learnBuy ul li a:hover {
+  color: white;
+}
+.tvShowLogoContainer {
+  padding: 160px 0 200px;
+}
+.watchMoreContainer a {
+  color: #551a8b;
+}
