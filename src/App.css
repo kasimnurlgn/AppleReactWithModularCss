@@ -20,18 +20,10 @@ img {
 .top-50 {
   margin-top: 50px;
 }
-.links-wrapper ul {
-  list-style: none;
+.top-100 {
+  margin-top: 100px;
 }
-.product-title {
-  font-weight: 700;
-  font-size: 56px;
-}
-.brief-description {
-  font-size: 2em;
-}
-
 
 /* git add .
-git commit -m "third section added"
+git commit -m "general style added"
 git push */
