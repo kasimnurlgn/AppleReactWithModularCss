@@ -1,0 +1,12 @@
+.iphone11Section h1 {
+  font-size: 46px !important;
+}
+
+.iphone11Section {
+  height: 580px;
+  background-position: center;
+  background-size: cover;
+}
+.iphone11Section {
+  background-image: url("../../assets/images/home/iphone11-bg.jpg");
+}
