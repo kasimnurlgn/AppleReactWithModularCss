@@ -10,6 +10,7 @@ import Iphone11 from "./components/Iphone11/Iphone11";
 import FirstRow from "./components/FirstRow/FirstRow";
 import SecondRow from "./components/SecondRow/SecondRow";
 import ThirdRow from "./components/ThirdRow/ThirdRow";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <FirstRow />
       <SecondRow />
       <ThirdRow />
+      <Footer />
     </>
   );
 }

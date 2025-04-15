@@ -1,77 +1,81 @@
 /* Footer Styling */
-.footer-wrapper {
+footer a {
+  text-decoration: none;
+}
+.footerWrapper {
   background-color: #f5f5f7;
   color: #86868b;
   font-size: 0.7em;
 }
-.footer-wrapper ul {
+.footerWrapper ul {
   list-style: none;
   padding-bottom: 10px;
   padding-inline-start: 0px;
 }
-.footer-wrapper ul a {
+.footerWrapper ul a {
   color: #515154;
 }
-.my-apple-wrapper {
+.myAppleWrapper {
   padding-bottom: 15px;
   margin-top: 10px;
 }
 .copyright {
   margin-top: 15px;
 }
-.footer-country {
+.footerCountry {
   margin-top: 8px;
 }
-.flag-wrapper {
+.flagWrapper {
   display: inline-block;
   vertical-align: middle;
   padding-right: 5px;
 }
-.footer-country-name {
+.footerCountryName {
   display: inline-block;
   vertical-align: middle;
 }
-.footer-links-terms ul {
+.footerLinksTerms ul {
   display: flex;
 }
-.footer-links-terms ul li {
+.footerLinksTerms ul li {
   padding: 0 10px;
   border-right: 1px solid #d2d2d7;
 }
-.footer-links-terms ul li:first-child {
+.footerLinksTerms ul li:first-child {
   padding-left: 0;
 }
-.footer-links-terms ul li:last-child {
+.footerLinksTerms ul li:last-child {
   border-right: 0;
 }
 
-.footer-links-wrapper h3 {
+.footerLinksWrapper h3 {
   font-size: 12px;
   font-weight: 600;
   color: #1d1d1f;
 }
-.footer-wrapper ul li {
+.footerWrapper ul li {
   padding: 4px 0;
 }
-.upper-text-container {
+.upperTextContainer {
   border-bottom: 1px solid #d2d2d7;
   padding: 17px 0 10px;
   margin-bottom: 20px;
 }
-.upper-text-container a {
+.upperTextContainer a {
   color: #515154;
 }
+
 /*Media Query*/
 /* Footer */
 @media (max-width: 768px) {
-  .footer-links-wrapper ul {
+  .footerLinksWrapper ul {
     display: none;
   }
-  .footer-links-wrapper h3 {
+  .footerLinksWrapper h3 {
     padding: 10px 0;
     border-bottom: 1px solid #ccc;
   }
-  .footer-links-wrapper h3:after {
+  .footerLinksWrapper h3:after {
     font-family: "FontAwesome";
     content: "\f067";
     padding-left: 10px;
@@ -81,7 +85,7 @@
 }
 @media (min-width: 768px) {
   /*Footer styling*/
-  .my-apple-wrapper {
+  .myAppleWrapper {
     border-bottom: 1px solid #d2d2d7;
   }
 }
@@ -90,10 +94,10 @@
   .copyright {
     margin-top: 10px;
   }
-  .footer-country {
+  .footerCountry {
     margin-top: 10px;
   }
-  .footer-links-terms {
+  .footerLinksTerms {
     margin-top: 10px;
   }
 }
