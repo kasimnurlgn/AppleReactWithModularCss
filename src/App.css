@@ -20,6 +20,17 @@ img {
 .top-50 {
   margin-top: 50px;
 }
+.links-wrapper ul {
+  list-style: none;
+}
+.product-title {
+  font-weight: 700;
+  font-size: 56px;
+}
+.brief-description {
+  font-size: 2em;
+}
+
 
 /* git add .
 git commit -m "third section added"
