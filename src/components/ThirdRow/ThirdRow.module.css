@@ -1,0 +1,18 @@
+.rightAndLeft {
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* third row */
+/* third row left */
+.thirdRow .thirdRowLeft {
+  background-image: url("../../assets/images/home/macbook-pro.jpg");
+  background-size: initial;
+  background-color: #fafafa;
+  background-position: bottom;
+}
+/* third row right */
+.thirdRow .thirdRowRight {
+  background-image: url("../../assets/images/home/new-ipad.jpg");
+}
