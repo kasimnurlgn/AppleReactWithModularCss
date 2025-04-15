@@ -1,25 +1,27 @@
-import React from 'react'
-
+import React from "react";
+import styles from "./Iphone11Pro.module.css";
 const Iphone11Pro = () => {
   return (
     <div>
-      <section class="iphone-11-pro-section container-fluid py-5 bg-light">
-        <div class="row text-center text-white">
-          <h1 class="fw-bold">iPhone 11 Pro</h1>
-          <p class="fs-3">Pro cameras. Pro display. Pro performance.</p>
-          <p class="fs-6 mb-0 pb-1 text-secondary">
+      <section
+        className={` container-fluid py-5 bg-light ${styles.iphone11ProSection}`}
+      >
+        <div className="row text-center text-white">
+          <h1 className="fw-bold">iPhone 11 Pro</h1>
+          <p className="fs-3">Pro cameras. Pro display. Pro performance.</p>
+          <p className="fs-6 mb-0 pb-1 text-secondary">
             From $24.95/mo. or $599 with trade‑in.
           </p>
-          <div class="learn-buy">
-            <ul class="list-unstyled d-flex justify-content-center">
+          <div className={styles.learnBuy}>
+            <ul className="list-unstyled d-flex justify-content-center">
               <li>
-                <a href="#" class="text-decoration-none fs-5 me-3">
-                  Learn more <i class="fas fa-chevron-right"></i>
+                <a href="#" className="text-decoration-none fs-5 me-3">
+                  Learn more <i className="fas fa-chevron-right"></i>
                 </a>
               </li>
               <li>
-                <a href="#" class="text-decoration-none fs-5">
-                  Buy <i class="fas fa-chevron-right"></i>
+                <a href="#" className="text-decoration-none fs-5">
+                  Buy <i className="fas fa-chevron-right"></i>
                 </a>
               </li>
             </ul>
@@ -28,6 +30,6 @@ const Iphone11Pro = () => {
       </section>
     </div>
   );
-}
+};
 
-export default Iphone11Pro
+export default Iphone11Pro;

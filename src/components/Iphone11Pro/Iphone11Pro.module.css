@@ -1,0 +1,14 @@
+.iphone11ProSection h1 {
+  font-size: 46px;
+}
+.iphone11ProSection {
+  height: 580px;
+  background-position: center;
+  background-size: cover;
+}
+.iphone11ProSection {
+  background-image: url("../../assets/images/home/iphone11-pro-bg.jpg");
+}
+.iphone11ProSection .learnBuy ul li a:hover {
+  color: white;
+}
