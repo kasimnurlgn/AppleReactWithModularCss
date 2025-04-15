@@ -1,0 +1,15 @@
+.rightAndLeft {
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+}
+/* first-row */
+.firstRow .firstRowLeft {
+  background-image: url("../../assets/images/home/watch-series-5.jpg");
+}
+.firstRow .firstRowRight {
+  background-image: url("../../assets/images/home/apple-card.jpg");
+}
+.firstRowDescription {
+  max-width: 400px;
+}
